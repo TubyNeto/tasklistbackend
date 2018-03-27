@@ -1,0 +1,18 @@
+{
+    "name": "tasklist_backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "backend.js",
+    "scripts": {
+        "dev": "nodemon backend.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "TubyNeto",
+    "license": "MIT",
+    "dependencies": {
+        "koa": "^2.5.0",
+        "koa-bodyparser": "^4.2.0",
+        "koa-router": "^7.4.0",
+        "nodemon": "^1.17.2"
+    }
+}
